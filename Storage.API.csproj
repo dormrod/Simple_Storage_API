@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DockerComposeProjectPath>docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>67a16ecf-62ba-490a-a20d-a9d58e35fe1a</UserSecretsId>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite" Version="1.0.113.1" />
+    <PackageReference Include="System.Net.Http.Formatting.Extension" Version="5.2.3" />
+  </ItemGroup>
+</Project>
